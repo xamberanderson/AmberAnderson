@@ -1,62 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Candy</title>
-</head>
+    <!-- STEP 1: Change the title tag to be Your Name -->
+    <title>Amber Anderson</title>
 
-<body>
-    <h1>What is Your Favorite Candy?</h1>
-    Please select the options that are valid to you.
-        <form action="http://www.thecandystoresf.com/" method='GET'>
-            <h3>Do you like candy?</h3>
-            <label for="yes">Yes:</label>
-            <input type="radio" name="candychoice" value="yes" id="yes">
-            <label for="no">No:</label>
-            <input type="radio" name="candychoice" value="no" id="no">
+    <!-- STEP 2: INSERT THE BOOTSTRAP 4.6 links here or the Bootstrap 5 CSS link here in the head and the 
+         JavaScript Bundle link right before the closing body tag like it says here 
+         https://getbootstrap.com/docs/5.1/getting-started/introduction/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
 
-            <h3>What is your favorite type of candy?</h3>
-            <select name="hello" id="">
-            <option value="candy">Chocolate</option>
-            <option value="candy">Chewy candy</option>
-            <option value="candy">Sour</option>
-            <option value="candy">Spicy</option>
-            </select>
-            <p><input type="submit" value="Submit"></p>
+    <!--STEP 3:  ADD A DARK NAVBAR HERE WITH YOUR NAME IN THE TOP LEFT.  
+        Also, create a link in the navbar TO the HTML file that you made in the HTML assessment -->
+      <!-- As a heading -->
+    <nav class="navbar navbar-dark bg-dark">
+      <span class="navbar-brand mb-0 h1">Navbar</span>
+      <a href="htmlassessment.html">Html Assessment Link</a>
+    </nav>
+    
 
-        </form>
+    <div>
 
-    <!--  Different kinds of candy-->
-    <h4>There are subcats of candy.</h4>
-    <ul>
-        <li>Chocolate</li>
-            <ul>
-                <li>Bars</li>
-                <li>Drops</li>
-                <li>Truffles</li>
-                <li>W/ Nuts</li>
-            </ul>
-        <li>Chewy Candy</li>
-            <ul>
-                <li>Taffy</li>
-                <li>Caramel</li>
-                <li>Gummies</li>
-            </ul>
-        <li>Hard Candy</li>
-            <ul>
-                <li>Lollipops</li>
-                <li>Jolly Ranchers</li>
-                <li>Jaw Breakers</li>
-            </ul>
-    </ul>
+      <!-- Add a class with custom styling to this div IN INDEX.CSS -->
+      
+    </div>
 
-    <h4>You can buy candy online too. Here is a link to a SF online candy store.</h4>
-     <a href="https://www.thecandystoresf.com/">The Candy Store SF</a>
+    <div>
+      <!-- Add the same class as before to apply the same styling to this div.
+           ALSO add an id to this div to apply something unique. -->
+    </div>
 
-     <p><img src="candy.jfif" alt="">
+    <!-- STEP 4: CREATE A PHOTO CAROUSEL HERE -->
 
-</body>
+    <!-- STEP 5: ADD Bootstrap styling to the table below so it has striped rows 
+         and a header row and add at least three more rows. Feel free to change the text.-->
 
+    <table>
+      <th>
+        <td>Kai:</td><td>Kangaroo - </td><td>4 or 5 toes</td>
+      </th>
+      <tr>
+        <td></td><td></td><td></td>
+      </tr>
+    </table>
+  </div>
+  </body>
 </html>
